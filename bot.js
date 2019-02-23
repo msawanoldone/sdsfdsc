@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const adminprefix = "--"
-const prefix = "-"
+const adminprefix = "-"
+const prefix = "&"
 let done = {};
 
 client.on("message", (message) => {
